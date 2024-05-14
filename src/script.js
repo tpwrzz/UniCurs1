@@ -111,7 +111,7 @@ const setLocale = (newLocale) => {
 }
 
 const fetchTranslations = async (newLocale) => {
-  const response = await fetch(`../src/lang/${newLocale}.json`);
+  const response = await fetch(`src/lang/${newLocale}.json`);
   return response.json();
 };
 
